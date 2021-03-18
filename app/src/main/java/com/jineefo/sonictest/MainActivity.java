@@ -5,8 +5,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import org.vinuxproject.sonic.AndroidAudioDevice;
-import org.vinuxproject.sonic.Sonic;
+
+import org.vinuxproject.audio.sonic.AndroidAudioDevice;
+import org.vinuxproject.audio.sonic.Sonic;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -33,7 +34,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.main);
         speedEdit = (EditText) findViewById(R.id.speed);
         play=(Button)findViewById(R.id.play);
         play.setOnClickListener(new View.OnClickListener() {

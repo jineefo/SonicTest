@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_ecomp_des_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="5dip">
+    <EditText
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/darker_gray"
+        android:lineSpacingMultiplier="1.2"
+        android:layout_margin="10dp"
+        android:hint="速度float"
+        android:paddingLeft="15dp"
+        android:text="1.0"
+        android:paddingRight="15dp"
+        android:ellipsize="end"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        />
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="10dp"
+        android:layout_gravity="left|center_vertical"
+        android:layout_marginTop="10dip"
+        android:background="@android:color/holo_red_light"
+        android:lineSpacingMultiplier="1.2"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:ellipsize="end"
+        android:text="点击"
+        android:textColor="#333333"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>
+
